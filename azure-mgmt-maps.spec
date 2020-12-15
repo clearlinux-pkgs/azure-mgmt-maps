@@ -4,7 +4,7 @@
 #
 Name     : azure-mgmt-maps
 Version  : 0.1.0
-Release  : 9
+Release  : 10
 URL      : https://files.pythonhosted.org/packages/58/99/735fc6f274d2f2a493071b4bc3e6ec2bc3d0d6caf1425eb903647785532c/azure-mgmt-maps-0.1.0.zip
 Source0  : https://files.pythonhosted.org/packages/58/99/735fc6f274d2f2a493071b4bc3e6ec2bc3d0d6caf1425eb903647785532c/azure-mgmt-maps-0.1.0.zip
 Summary  : Microsoft Azure Maps Client Library for Python
@@ -81,10 +81,10 @@ echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
 ## Remove excluded files
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/__init__.py
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/__pycache__/__init__.cpython-38.pyc
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/mgmt/__init__.py
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/mgmt/__pycache__/__init__.cpython-38.pyc
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/__init__.py
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/__pycache__/__init__.cpython-3*.pyc
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/mgmt/__init__.py
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/mgmt/__pycache__/__init__.cpython-3*.pyc
 
 %files
 %defattr(-,root,root,-)
