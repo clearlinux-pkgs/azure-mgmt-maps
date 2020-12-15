@@ -4,7 +4,7 @@
 #
 Name     : azure-mgmt-maps
 Version  : 0.1.0
-Release  : 8
+Release  : 9
 URL      : https://files.pythonhosted.org/packages/58/99/735fc6f274d2f2a493071b4bc3e6ec2bc3d0d6caf1425eb903647785532c/azure-mgmt-maps-0.1.0.zip
 Source0  : https://files.pythonhosted.org/packages/58/99/735fc6f274d2f2a493071b4bc3e6ec2bc3d0d6caf1425eb903647785532c/azure-mgmt-maps-0.1.0.zip
 Summary  : Microsoft Azure Maps Client Library for Python
